@@ -1,0 +1,31 @@
+2021-10-08 21:31:48,262 INFO o.s.b.StartupInfoLogger [main] Starting ManagementApplication using Java 15.0.2 on mbp.local with PID 32616 (/Users/nabin/Documents/projects/management/target/classes started by nabin in /Users/nabin/Documents/projects/management)
+2021-10-08 21:31:48,267 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-08 21:31:48,267 INFO o.s.b.SpringApplication [main] The following profiles are active: local
+2021-10-08 21:31:48,740 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-10-08 21:31:48,750 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2021-10-08 21:31:49,099 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-10-08 21:31:49,105 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-10-08 21:31:49,106 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2021-10-08 21:31:49,106 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-08 21:31:49,189 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-10-08 21:31:49,189 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 895 ms
+2021-10-08 21:31:49,282 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-10-08 21:31:49,317 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-10-08 21:31:49,407 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-10-08 21:31:49,481 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2021-10-08 21:31:49,604 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-10-08 21:31:49,615 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-10-08 21:31:49,763 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-10-08 21:31:49,771 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-08 21:31:49,844 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-08 21:31:50,371 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-10-08 21:31:50,385 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-08 21:31:50,393 INFO o.s.b.StartupInfoLogger [main] Started ManagementApplication in 2.412 seconds (JVM running for 3.114)
+2021-10-08 21:31:54,960 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-08 21:31:54,960 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-10-08 21:31:54,961 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2021-10-08 21:32:02,298 INFO o.s.a.AbstractOpenApiResource [http-nio-8080-exec-6] Init duration for springdoc-openapi is: 94 ms
+2021-10-08 21:32:50,528 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(4)-127.0.0.1] Application shutdown requested.
+2021-10-08 21:32:50,545 INFO o.s.o.j.AbstractEntityManagerFactoryBean [RMI TCP Connection(4)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-10-08 21:32:50,547 INFO c.z.h.HikariDataSource [RMI TCP Connection(4)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2021-10-08 21:32:50,552 INFO c.z.h.HikariDataSource [RMI TCP Connection(4)-127.0.0.1] HikariPool-1 - Shutdown completed.
